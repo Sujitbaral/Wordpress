@@ -176,26 +176,6 @@ new Intern_Customize();
 /**
  * Add copyright customizer
  */
-// function intern_footer_copyright($wp_customize){
-//   $wp_customize->add_section('intern-footer-copyright-section',array(
-//       'title' => 'Footer Copyright'
-//   ));
-  
-//   $wp_customize->add_setting('intern-footer-copyright-firstline', array(
-//       'default' => 'This is the default text'
-//   ));
-
-//   $wp_customize->add_control( new WP_Customize_Control($wp_customize,'intern-footer-copyright-firstline-control', array(
-//       'label' => 'Firstline',
-//       'section' => 'intern-footer-copyright-section',
-//       'setting' => 'intern-footer-copyright-firstline'
-
-//   )));
-// }
-
-// add_action('customize_register','intern_footer_copyright');
-
-
 
 function intern_footer_copyright($wp_customize) {
 	$wp_customize->add_section('intern-footer-copyright-section', array(
